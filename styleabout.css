@@ -208,10 +208,10 @@ i{
     }
     
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1520px) {
     body{
        
-        height: 900px;
+        height: 100%;
     }
     main{
         height: 100%;
@@ -220,6 +220,7 @@ i{
         justify-content: center;
         align-items: center;
         gap: 20px;
+        height: 100%;
     }
     header{
         width: 100%;
